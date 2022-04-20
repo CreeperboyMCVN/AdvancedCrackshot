@@ -1,0 +1,28 @@
+# Dùng scope nâng cao ?
+advancedScope: true
+# Thanh đo máu ảo, xuất hiện trên tâm
+visualIndicator:
+  # Bật ?
+  enable: true
+  # Màu lúc bình thường
+  color: "&r"
+  # Màu lúc headshot
+  headshot: "&c"
+  # Màu lúc backstab
+  backstab: "&e"
+  # Kí tự
+  symbol: "x" #kí tự dấu x
+  # chế độ hiển thị (title | subtitle)
+  mode: "title"
+
+# Tin nhắn headshot
+headshotdeathmsg:
+  enable: true
+  weapons:
+    # Các placeholder
+    # <killer> trả về thằng giết
+    # <victim> trả về thằng bị giết
+    # <distance> trả về khoảng cách
+    # <weapon> trả về vũ khí đã sử dụng
+    AK47: "&c<killer> &akilled &c<victim> &awith &7AK47"
+

@@ -1,0 +1,6 @@
+name: AdvancedCrackShot
+version: '${project.version}'
+main: com.creeperboymcvn.advancedcs.ACS
+api-version: 1.15
+depend: [ CrackShot, CrackShotPlus ]
+authors: [ CreeperboyMCVN ]
